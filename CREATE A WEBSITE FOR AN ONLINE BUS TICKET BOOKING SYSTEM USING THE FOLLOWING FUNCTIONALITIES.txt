@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bus Ticket Booking System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bus Ticket Booking System</h1>
+
+        <!-- Admin Section -->
+        <div class="admin-section">
+            <h2>Admin</h2>
+            <form action="admin_login.php" method="post">
+                <!-- Admin Login Form Fields -->
+            </form>
+            <button onclick="location.href='manage_bus_info.php'">Manage Bus Information</button>
+            <button onclick="location.href='manage_registered_users.php'">Manage Registered Users</button>
+            <button onclick="location.href='manage_news.php'">Manage News</button>
+            <button onclick="location.href='generate_reports.php'">Generate Reports</button>
+        </div>
+
+        <!-- User Section -->
+        <div class="user-section">
+            <h2>User</h2>
+            <form action="login.php" method="post">
+                <!-- User Login Form Fields -->
+            </form>
+            <button onclick="location.href='registration.php'">Register</button>
+            <button onclick="location.href='book_ticket.php'">Book Ticket</button>
+            <button onclick="location.href='update_bus_info.php'">Update Bus Information</button>
+            <button onclick="location.href='cancel_booking.php'">Cancel Booking</button>
+            <button onclick="location.href='post_comments.php'">Post Comments</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

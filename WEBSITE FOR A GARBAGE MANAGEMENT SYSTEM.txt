@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garbage Management System</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Garbage Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#complaint">Register Complaint</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#route">Choose Route</a></li>
+                <li><a href="#update">Update Work</a></li>
+                <li><a href="#logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Garbage Management System</h2>
+        <p>Your solution for effective waste management.</p>
+    </section>
+
+    <section id="register">
+        <h2>Register</h2>
+        <form action="register.php" method="post"><button type="submit">Register</button></form>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form action="login.php" method="post"><button type="submit">Login</button></form>
+    </section>
+
+    <section id="complaint">
+        <h2>Register Complaint</h2>
+        <form action="register_complaint.php" method="post"><button type="submit">Register Complaint</button></form>
+    </section>
+
+    <section id="dashboard">
+        <h2>Dashboard</h2>
+        <!-- Display relevant dashboard content for Admin and Public -->
+    </section>
+
+    <section id="route">
+        <h2>Choose Route</h2>
+        <!-- Display a list of routes generated for the driver -->
+        <!-- Include options for the driver to choose the best route -->
+    </section>
+
+    <section id="update">
+        <h2>Update Work</h2>
+        <form action="update_work.php" method="post"><button type="submit">Update Work</button></form>
+    </section>
+
+    <section id="logout">
+        <h2>Logout</h2>
+        <button type="submit">Logout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Garbage Management System. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy a Cake - Online Cake Ordering System</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, nav, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Buy a Cake - Online Cake Ordering System</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#admin-login">Admin Login</a></li>
+            <li><a href="#manage-products">Manage Products</a></li>
+            <li><a href="#manage-orders">Manage Orders</a></li>
+            <li><a href="#student-register">Student Register</a></li>
+            <li><a href="#student-login">Student Login</a></li>
+            <li><a href="#search-cake">Search Cake</a></li>
+            <li><a href="#my-order">My Order</a></li>
+            <li><a href="#logout">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="admin-login">
+        <h2>Admin Login</h2>
+        <form action="admin-login.php" method="post">
+            <!-- Add admin login form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="manage-products">
+        <h2>Manage Products</h2>
+        <form action="post-cake-details.php" method="post">
+            <!-- Add product details form elements here -->
+        </form>
+
+        <form action="upload-images.php" method="post">
+            <!-- Add image upload form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="manage-orders">
+        <h2>Manage Orders</h2>
+        <form action="update-order-status.php" method="post">
+            <!-- Add order status update form elements here -->
+        </form>
+
+        <form action="shipping-location.php" method="post">
+            <!-- Add shipping location update form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="student-register">
+        <h2>Student Register</h2>
+        <form action="student-register.php" method="post">
+            <!-- Add student registration form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="student-login">
+        <h2>Student Login</h2>
+        <form action="student-login.php" method="post">
+            <!-- Add student login form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="search-cake">
+        <h2>Search Cake</h2>
+        <form action="search-cake.php" method="post">
+            <!-- Add cake search form elements here -->
+        </form>
+
+        <form action="filter-cake.php" method="post">
+            <!-- Add cake filter form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="my-order">
+        <h2>My Order</h2>
+        <!-- Display user's orders and shipping status here -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Buy a Cake - Online Cake Ordering System</p>
+    </footer>
+</body>
+</html>

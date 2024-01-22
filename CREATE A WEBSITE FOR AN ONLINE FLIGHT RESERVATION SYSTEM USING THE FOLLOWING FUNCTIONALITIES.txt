@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Reservation System</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, nav, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Flight Reservation System</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#admin-login">Admin Login</a></li>
+            <li><a href="#forgot-password">Forgot Password</a></li>
+            <li><a href="#search-flight">Search Flight</a></li>
+            <li><a href="#book-ticket">Book Ticket</a></li>
+            <li><a href="#ticket-payment">Ticket Payment</a></li>
+            <li><a href="#my-ticket">My Ticket</a></li>
+            <li><a href="#cancel-ticket">Cancel Ticket</a></li>
+            <li><a href="#customer-feedback">Customer Feedback</a></li>
+            <li><a href="#admin-report">Admin Report</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="admin-login">
+        <h2>Administrator Login</h2>
+        <form action="admin-login.php" method="post">
+            <!-- Add admin login form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="forgot-password">
+        <h2>Forgot Password</h2>
+        <form action="forgot-password.php" method="post">
+            <!-- Add forgot password form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="search-flight">
+        <h2>Search Flight</h2>
+        <!-- Add search flight form elements here -->
+    </div>
+
+    <div class="container" id="book-ticket">
+        <h2>Book Ticket</h2>
+        <!-- Add book ticket form elements here -->
+    </div>
+
+    <div class="container" id="ticket-payment">
+        <h2>Ticket Payment</h2>
+        <!-- Add ticket payment form elements here -->
+    </div>
+
+    <div class="container" id="my-ticket">
+        <h2>My Ticket</h2>
+        <!-- Display user's booked tickets here -->
+    </div>
+
+    <div class="container" id="cancel-ticket">
+        <h2>Cancel Ticket</h2>
+        <!-- Add cancel ticket form elements here -->
+    </div>
+
+    <div class="container" id="customer-feedback">
+        <h2>Customer Feedback</h2>
+        <!-- Add customer feedback form elements here -->
+    </div>
+
+    <div class="container" id="admin-report">
+        <h2>Admin Report</h2>
+        <!-- Add admin report content here -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Flight Reservation System</p>
+    </footer>
+</body>
+</html>

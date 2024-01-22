@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Service</title>
+    <style>/* Add your CSS styles for a friendly and pretty appearance */</style>
+</head>
+
+<body>
+    <header>
+        <h1>Real Estate Service</h1>
+        <nav><ul><li><a href="#home">Home</a></li><li><a href="#search">Search Properties</a></li><li><a href="#login">Login</a></li><li><a href="#agents">Find Agents</a></li><li><a href="#companies">Find Companies</a></li></ul></nav>
+    </header>
+
+    <section id="home"><h2>Welcome to our Real Estate Service</h2></section>
+    <section id="search"><h2>Search Properties</h2></section>
+    <section id="login"><h2>Login</h2></section>
+    <section id="agents"><h2>Find Agents</h2></section>
+    <section id="companies"><h2>Find Companies</h2></section>
+    <section id="property-details"><h2>Property Details</h2></section>
+    <section id="map"><h2>Property Location on Google Maps</h2></section>
+
+    <footer><p>&copy; 2024 Real Estate Service</p></footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

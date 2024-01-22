@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Hospital Appointment Booking System</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, nav, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Online Hospital Appointment Booking System</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#search-module">Search Module</a></li>
+            <li><a href="#appointment-booking">Appointment Booking</a></li>
+            <li><a href="#check-in-form">Check-in Form</a></li>
+            <li><a href="#appointment-management">Appointment Management</a></li>
+            <li><a href="#schedule-timing">Schedule a Timing</a></li>
+            <li><a href="#past-appointment-management">Past Appointment Management</a></li>
+            <li><a href="#admin-features">Admin Features</a></li>
+            <li><a href="#patient-features">Patient Features</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="search-module">
+        <h2>Search Module</h2>
+        <form action="search-doctors.php" method="post">
+            <!-- Add search module form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="appointment-booking">
+        <h2>Appointment Booking</h2>
+        <form action="book-appointment.php" method="post">
+            <!-- Add appointment booking form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="check-in-form">
+        <h2>Check-in Form</h2>
+        <form action="check-in.php" method="post">
+            <!-- Add check-in form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="appointment-management">
+        <h2>Appointment Management</h2>
+        <form action="manage-appointments.php" method="post">
+            <!-- Add appointment management form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="schedule-timing">
+        <h2>Schedule a Timing</h2>
+        <form action="schedule-timing.php" method="post">
+            <!-- Add schedule timing form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="past-appointment-management">
+        <h2>Past Appointment Management</h2>
+        <!-- Display user's past appointment details here -->
+    </div>
+
+    <div class="container" id="admin-features">
+        <h2>Admin Features</h2>
+        <form action="manage-appointments-admin.php" method="post">
+            <!-- Add admin features form elements here -->
+        </form>
+
+        <form action="manage-doctors.php" method="post">
+            <!-- Add manage doctors form elements here -->
+        </form>
+
+        <form action="view-appointments-stats.php" method="post">
+            <!-- Add view appointments statistics form elements here -->
+        </form>
+
+        <form action="view-ratings-details.php" method="post">
+            <!-- Add view ratings details form elements here -->
+        </form>
+    </div>
+
+    <div class="container" id="patient-features">
+        <h2>Patient Features</h2>
+        <form action="patient-signup-login.php" method="post">
+            <!-- Add patient signup/login form elements here -->
+        </form>
+
+        <form action="search-doctors-patient.php" method="post">
+            <!-- Add search doctors form elements for patients here -->
+        </form>
+
+        <form action="write-review.php" method="post">
+            <!-- Add write review form elements here -->
+        </form>
+
+        <form action="view-check-in-details.php" method="post">
+            <!-- Add view check-in details form elements here -->
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Online Hospital Appointment Booking System</p>
+    </footer>
+</body>
+</html>

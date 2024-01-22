@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second-Hand Marketplace</title>
+    <style>/* Add your CSS styling here */</style>
+</head>
+<body>
+    <header><h1>Second-Hand Marketplace</h1></header>
+    
+    <section>
+        <h2>User Management</h2>
+        <form action="#"><label for="username">Username:</label><input type="text" id="username" name="username"><label for="password">Password:</label><input type="password" id="password" name="password"><button type="submit">Login</button></form>
+        <ul><li>Edit User</li><li>Delete User</li></ul>
+    </section>
+
+    <section>
+        <h2>Category Management</h2>
+        <form action="#"><label for="category">Category:</label><input type="text" id="category" name="category"><button type="submit">Add Category</button></form>
+        <ul><li>Delete Category</li></ul>
+    </section>
+
+    <section>
+        <h2>Commodity Management</h2>
+        <ul><li>Edit Commodity</li><li>Delete Commodity</li></ul>
+    </section>
+
+    <section>
+        <h2>Order Management</h2>
+        <form action="#"><label for="logisticsStatus">Logistics Status:</label><select id="logisticsStatus" name="logisticsStatus"><option value="shipped">Shipped</option><option value="received">Received</option></select><button type="submit">Update Logistics Status</button></form>
+        <ul><li>Delete Order</li></ul>
+    </section>
+
+    <footer><p>&copy; 2024 Second-Hand Marketplace</p></footer>
+</body>
+</html>

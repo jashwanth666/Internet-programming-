@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Train Reservation System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Train Reservation System</h1>
+
+        <!-- User Section -->
+        <div class="user-section">
+            <h2>User</h2>
+            <form action="login.php" method="post">
+                <!-- User Login Form Fields -->
+            </form>
+            <button onclick="location.href='reserve_ticket.php'">Reserve Ticket</button>
+            <button onclick="location.href='view_train_list.php'">View Train List</button>
+            <button onclick="location.href='check_seat_availability.php'">Check Seat Availability</button>
+            <button onclick="location.href='pay_ticket.php'">Pay Ticket</button>
+            <button onclick="location.href='check_pnr_status.php'">Check PNR Status</button>
+            <button onclick="location.href='cancel_ticket.php'">Cancel Ticket</button>
+        </div>
+
+        <!-- Admin Section -->
+        <div class="admin-section">
+            <h2>Admin</h2>
+            <form action="admin_login.php" method="post">
+                <!-- Admin Login Form Fields -->
+            </form>
+            <button onclick="location.href='manage_train_details.php'">Manage Train Details</button>
+            <button onclick="location.href='manage_fare_details.php'">Manage Fare Details</button>
+            <button onclick="location.href='manage_pnr_details.php'">Manage PNR Details</button>
+            <button onclick="location.href='manage_refund_rules.php'">Manage Refund Rules</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

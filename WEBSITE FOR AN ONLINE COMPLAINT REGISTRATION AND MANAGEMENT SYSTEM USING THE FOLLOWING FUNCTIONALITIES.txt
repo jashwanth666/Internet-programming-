@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Management System</title>
+    <style>
+        /* Add your CSS styling here */
+    </style>
+</head>
+<body>
+    <!-- User Section -->
+    <section>
+        <h2>User</h2>
+        <form action="#">
+            <label for="userUsername">Username:</label>
+            <input type="text" id="userUsername" name="userUsername">
+
+            <label for="userPassword">Password:</label>
+            <input type="password" id="userPassword" name="userPassword">
+
+            <button type="submit">Login</button>
+        </form>
+
+        <ul>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Post Complaint</a></li>
+            <li><a href="#">Location Mark in Google Map</a></li>
+            <li><a href="#">View Complaint Status</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Get Admin Contact Details</a></li>
+        </ul>
+    </section>
+
+    <!-- Officer Section -->
+    <section>
+        <h2>Officer</h2>
+        <form action="#">
+            <label for="officerUsername">Username:</label>
+            <input type="text" id="officerUsername" name="officerUsername">
+
+            <label for="officerPassword">Password:</label>
+            <input type="password" id="officerPassword" name="officerPassword">
+
+            <button type="submit">Login</button>
+        </form>
+
+        <ul>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">View Complaint</a></li>
+            <li><a href="#">Update Status</a></li>
+            <li><a href="#">Update Proof of Work</a></li>
+        </ul>
+    </section>
+
+    <!-- Admin Section -->
+    <section>
+        <h2>Admin</h2>
+        <ul>
+            <li><a href="#">Generate ID & Password for Officer</a></li>
+            <li>The administrator has full-fledged rights over the system.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Complaint Management System</p>
+    </footer>
+</body>
+</html>

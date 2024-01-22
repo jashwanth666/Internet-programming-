@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Management System</title>
+    <style>/* Add your CSS styles for a user-friendly appearance */</style>
+</head>
+<body>
+    <header><h1>Insurance Management System</h1></header>
+
+    <section id="admin">
+        <h2>Admin</h2>
+        <form action="#admin-login" method="post">
+            <label for="admin-username">Username:</label>
+            <input type="text" id="admin-username" name="admin-username" required>
+            <label for="admin-password">Password:</label>
+            <input type="password" id="admin-password" name="admin-password" required>
+            <button type="submit">Login</button>
+        </form>
+        <ul><li><a href="#approve-agent">Approve Agent Login</a></li><li><a href="#view-agents">View All Agent Details</a></li></ul>
+    </section>
+
+    <section id="agents">
+        <h2>Agents</h2>
+        <form action="#agent-register" method="post">
+            <label for="agent-username">Username:</label>
+            <input type="text" id="agent-username" name="agent-username" required>
+            <label for="agent-password">Password:</label>
+            <input type="password" id="agent-password" name="agent-password" required>
+            <button type="submit">Register</button>
+        </form>
+        <form action="#agent-login" method="post">
+            <label for="agent-login-username">Username:</label>
+            <input type="text" id="agent-login-username" name="agent-login-username" required>
+            <label for="agent-login-password">Password:</label>
+            <input type="password" id="agent-login-password" name="agent-login-password" required>
+            <button type="submit">Login</button>
+        </form>
+        <form action="#create-customer" method="post"></form>
+        <form action="#manager-customer-details" method="post"></form>
+        <form action="#manage-policy-details" method="post"></form>
+        <form action="#send-sms-alert" method="post"></form>
+    </section>
+
+    <section id="user">
+        <h2>User</h2>
+        <form action="#user-login" method="post">
+            <label for="user-username">Username:</label>
+            <input type="text" id="user-username" name="user-username" required>
+            <label for="user-password">Password:</label>
+            <input type="password" id="user-password" name="user-password" required>
+            <button type="submit">Login</button>
+        </form>
+        <form action="#manage-policy-details" method="post"></form>
+        <div id="sms-alert"></div>
+    </section>
+
+    <footer><p>&copy; 2024 Insurance Management System</p></footer>
+</body>
+</html>

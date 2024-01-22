@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Flower and Gift Delivery</title>
+    <style>
+        /* Add your CSS styling here */
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Online Flower and Gift Delivery</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <!-- Display all available categories for shopping on the home page -->
+            <li><a href="#">Category 1</a></li>
+            <li><a href="#">Category 2</a></li>
+            <li><a href="#">Category 3</a></li>
+            <!-- Add more categories as needed -->
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Display all subcategories associated with a particular item -->
+        <section>
+            <h2>Subcategories for Item 1</h2>
+            <ul>
+                <li><a href="#">Subcategory 1</a></li>
+                <li><a href="#">Subcategory 2</a></li>
+                <!-- Add more subcategories as needed -->
+            </ul>
+        </section>
+
+        <!-- Display products with logical categorization -->
+        <section>
+            <h2>Category 1 Products</h2>
+            <ul>
+                <li>
+                    <h3>Product 1</h3>
+                    <p>Description of Product 1</p>
+                    <p>Price: $20.00</p>
+                    <button>Add to Cart</button>
+                </li>
+                <!-- Add more products as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <aside>
+        <!-- Admin functionalities -->
+        <h2>Admin Panel</h2>
+        <ul>
+            <li><a href="#">Add New Item</a></li>
+            <li><a href="#">Remove Item</a></li>
+            <li><a href="#">Modify Price</a></li>
+            <li><a href="#">View Customer Information</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Online Flower and Gift Delivery</p>
+    </footer>
+</body>
+
+</html>

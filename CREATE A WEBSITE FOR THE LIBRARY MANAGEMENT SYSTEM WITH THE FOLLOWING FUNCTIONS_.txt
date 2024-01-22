@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Library Management System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Library Management System</h1>
+
+        <!-- Librarian Admin Section -->
+        <div class="admin-section">
+            <h2>Librarian Admin</h2>
+            <form action="admin_login.php" method="post">
+                <!-- Admin Login Form Fields -->
+            </form>
+            <button onclick="location.href='add_book.php'">Add Book</button>
+            <button onclick="location.href='update_delete_book.php'">Update/Delete Book</button>
+            <button onclick="location.href='issue_book.php'">Issue Book</button>
+            <button onclick="location.href='return_book.php'">Return Book Status</button>
+            <button onclick="location.href='make_fine.php'">Make Fine</button>
+            <button onclick="location.href='update_material.php'">Update Material</button>
+            <button onclick="location.href='view_material.php'">View Material</button>
+        </div>
+
+        <!-- User Section -->
+        <div class="user-section">
+            <h2>User</h2>
+            <form action="user_login.php" method="post">
+                <!-- User Login Form Fields -->
+            </form>
+            <button onclick="location.href='register.php'">Register</button>
+            <button onclick="location.href='search_book.php'">Search Book</button>
+            <button onclick="location.href='borrow_history.php'">My Borrow History</button>
+            <button onclick="location.href='check_fine.php'">Check Fine</button>
+            <button onclick="location.href='search_material.php'">Search Material</button>
+            <button onclick="location.href='download_material.php'">Download Material</button>
+            <button onclick="location.href='my_profile.php'">My Profile</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

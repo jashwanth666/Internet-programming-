@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Wear Shop</title>
+</head>
+<body>
+    <header><h1>Welcome to our Fashion Wear Shop</h1></header>
+    <nav><ul><li><a href="#home">Home</a></li><li><a href="#categories">Categories</a></li><li><a href="#cart">Shopping Cart</a></li><li><a href="#login">Login</a></li><li><a href="#logout">Logout</a></li></ul></nav>
+
+    <section id="home"><h2>Popular Categories</h2></section>
+    <section id="categories"><h2>All Categories</h2></section>
+    <section id="products"><h2>Fashion Wear Catalog</h2></section>
+    <section id="cart"><h2>Shopping Cart</h2></section>
+    <section id="checkout"><h2>Checkout</h2></section>
+    <section id="order-status"><h2>Order Status</h2></section>
+    <section id="item-details"><h2>Item Details</h2></section>
+
+    <footer><p>&copy; 2024 Fashion Wear Shop</p></footer>
+
+    <script>
+        function addToCart(productId) { console.log(`Item added to cart: ${productId}`); }
+        function removeFromCart(productId) { console.log(`Item removed from cart: ${productId}`); }
+    </script>
+</body>
+</html>

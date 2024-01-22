@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriShop</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to AgriShop</h1>
+        <!-- Add navigation links based on user type (Farmer/Public) -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#search">Search Product</a></li>
+                <li><a href="#cart">My Cart</a></li>
+                <!-- Add more links based on user type -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <!-- Display home content -->
+        <h2>Home Section</h2>
+        <p>Welcome to AgriShop, where farmers and customers connect!</p>
+    </section>
+
+    <section id="search">
+        <!-- Search bar to search for products -->
+        <h2>Search Product</h2>
+        <form action="search_product.php" method="get">
+            <input type="text" name="search" placeholder="Search for products">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section>
+        <!-- Display product details -->
+        <h2>Product Details</h2>
+        <!-- Include options to add to cart -->
+        <button type="submit">Add to Cart</button>
+    </section>
+
+    <section id="cart">
+        <!-- Display a table of items in the cart with options to edit/delete -->
+        <h2>My Cart</h2>
+        <button type="submit">Order Now</button>
+    </section>
+
+    <!-- Additional sections based on user type (Farmer/Public) -->
+
+    <footer>
+        <p>&copy; 2024 AgriShop. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
