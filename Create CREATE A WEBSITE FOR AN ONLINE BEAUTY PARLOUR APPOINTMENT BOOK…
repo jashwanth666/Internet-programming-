@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Beauty Parlour Appointment Booking System</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; }
+        header, nav, footer { background-color: #333; color: white; text-align: center; padding: 10px; }
+        nav ul { list-style-type: none; margin: 0; padding: 0; }
+        nav li { display: inline; margin-right: 20px; }
+        a { text-decoration: none; color: white; }
+        footer { position: fixed; bottom: 0; width: 100%; }
+        .container { text-align: center; margin: 20px; }
+        form { display: inline-block; text-align: left; }
+    </style>
+</head>
+<body>
+    <header><h1>Welcome to Online Beauty Parlour Appointment Booking System</h1></header>
+
+    <nav><ul>
+        <li><a href="#search-parlour">Search Parlour</a></li>
+        <li><a href="#reservations-calendar">Reservations Calendar</a></li>
+        <li><a href="#customer-account">Customer Account</a></li>
+        <li><a href="#salon-manager-staff">Salon Manager & Staff</a></li>
+        <li><a href="#payments-integration">Payments Integration</a></li>
+        <li><a href="#customer-feedback">Customer Feedback</a></li>
+    </ul></nav>
+
+    <div class="container" id="search-parlour">
+        <h2>Search Parlour</h2>
+        <form action="search-parlour.php" method="post"> <!-- Add search parlour form elements here --> </form>
+    </div>
+
+    <div class="container" id="reservations-calendar">
+        <h2>Reservations Calendar</h2>
+        <form action="manage-reservations.php" method="post"> <!-- Add manage reservations form elements here --> </form>
+    </div>
+
+    <div class="container" id="customer-account">
+        <h2>Customer Account</h2>
+        <form action="customer-login.php" method="post"> <!-- Add customer login form elements here --> </form>
+        <form action="customer-account.php" method="post"> <!-- Add customer account details form elements here --> </form>
+    </div>
+
+    <div class="container" id="salon-manager-staff">
+        <h2>Salon Manager & Staff</h2>
+        <form action="staff-login.php" method="post"> <!-- Add staff login form elements here --> </form>
+        <form action="manage-reservations-staff.php" method="post"> <!-- Add manage reservations for staff form elements here --> </form>
+        <form action="send-sms-call.php" method="post"> <!-- Add send SMS or call form elements here --> </form>
+    </div>
+
+    <div class="container" id="payments-integration">
+        <h2>Payments Integration</h2>
+        <form action="accept-payments.php" method="post"> <!-- Add accept payments form elements here --> </form>
+        <form action="require-payment.php" method="post"> <!-- Add require payment form elements here --> </form>
+        <form action="payments-cancel.php" method="post"> <!-- Add automatic cancellation of unpaid reservations form elements here --> </form>
+        <form action="payments-platforms.php" method="post"> <!-- Add payments platforms integration form elements here --> </form>
+    </div>
+
+    <div class="container" id="customer-feedback">
+        <h2>Customer Feedback</h2>
+        <form action="leave-feedback.php" method="post"> <!-- Add leave feedback form elements here --> </form>
+    </div>
+
+    <footer><p>&copy; 2024 Online Beauty Parlour Appointment Booking System</p></footer>
+</body>
+</html>
